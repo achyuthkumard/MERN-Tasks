@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      .c {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+      }
+      .c1 {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+      }
+
+      .c2:hover {
+        background-color: rgb(243, 179, 59);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid bg-warning">
+        <div class="row">
+          <div class="col">
+            <p class="mx-2 text-dark display-3" style="font-weight: bolder">
+              Builderz
+            </p>
+          </div>
+
+          <div class="col my-2">
+            <div class="d-flex align-items-center">
+              <img src="time.png" alt="time" class="rounded" />
+              <p class="text-dark mx-2">
+                Opening Hour<br />
+                Mon - Fri, 8:00 - 9:00
+              </p>
+            </div>
+          </div>
+          <div class="col my-2">
+            <div class="d-flex align-items-center">
+              <img src="call.png" alt="time" class="rounded" />
+              <p class="text-dark mx-2">
+                Call Us<br />
+                +012 345 6789
+              </p>
+            </div>
+          </div>
+
+          <div class="col my-2">
+            <div class="d-flex align-items-center">
+              <img src="email.png" alt="time" class="rounded" />
+              <p class="text-dark mx-2">
+                Email Us<br />
+                info@example.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mx-3 bg-dark p-3">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+                <li><a href="#" class="nav-link text-warning">HOME</a></li>
+                <li><a href="#" class="nav-link text-light">ABOUT</a></li>
+                <li><a href="#" class="nav-link text-light">SERVICE</a></li>
+                <li><a href="#" class="nav-link text-light">TEAM</a></li>
+                <li><a href="#" class="nav-link text-light">PROJECT</a></li>
+                <div class="dropdown">
+                  <a
+                    href="#"
+                    class="dropdown-toggle text-light nav-link"
+                    data-bs-toggle="dropdown"
+                    >PAGES</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item nav-link text-dark"
+                      >PAGE1</a
+                    >
+                    <a href="#" class="dropdown-item nav-link text-dark"
+                      >PAGE2</a
+                    >
+                    <a href="#" class="dropdown-item nav-link text-dark"
+                      >PAGE3</a
+                    >
+                  </div>
+                </div>
+                <li><a href="#" class="nav-link text-light">CONTACT</a></li>
+              </ul>
+              <ul class="navbar-nav">
+                <button type="button" class="btn btn-outline-light">
+                  Get A Quote
+                </button>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://i.postimg.cc/5N6R51J1/image.png"
+                alt="Los Angeles"
+                class="d-block"
+                style="width: 100%"
+              />
+
+              <div
+                class="text-center position-absolute top-50 start-50 translate-middle"
+              >
+                <p class="text-light display-6">We Are Professional</p>
+                <h1 class="h1 text-light">For Your Dream Project</h1>
+                <button
+                  type="button"
+                  class="btn btn-outline-light my-2 px-4 py-2 c2"
+                >
+                  GET A QUOTE
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://i.postimg.cc/YSwDwWWq/image.png"
+                alt="Chicago"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div
+                class="text-center position-absolute top-50 start-50 translate-middle"
+              >
+                <p class="text-light display-6">Professional Builder</p>
+                <h1 class="h1 text-light">We Bulid Your Home</h1>
+                <button
+                  type="button"
+                  class="btn btn-outline-light my-2 px-4 py-2 c2"
+                >
+                  GET A QUOTE
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://i.postimg.cc/J4YWmPr7/image.png"
+                alt="Chicago"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div
+                class="text-center position-absolute top-50 start-50 translate-middle"
+              >
+                <p class="text-light display-6">We Are Trusted</p>
+                <h1 class="h1 text-light">For Your Dream Home</h1>
+                <button
+                  type="button"
+                  class="btn btn-outline-light my-2 px-4 py-2 c2"
+                >
+                  GET A QUOTE
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid mx-2 row">
+        <div class="col-4 bg-dark p-3">
+          <div class="d-flex align-items-center">
+            <img src="worker.png" class="rounded" alt="worker" />
+
+            <div class="m-2">
+              <p class="fs-2 text-warning my-2" style="font-weight: bolder">
+                Expert Worker
+              </p>
+
+              <p class="text-warning">
+                Lorem ipsum dolor sit amet<br />
+                elit. Phasus nec pretim ornare<br />
+                velit non
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 bg-warning p-3">
+          <div class="d-flex align-items-center">
+            <img src="apartment.png" class="rounded" alt="apartment" />
+
+            <div class="m-2">
+              <p class="fs-2 text-dark my-2" style="font-weight: bolder">
+                Quality Work
+              </p>
+
+              <p class="text-dark">
+                Lorem ipsum dolor sit amet<br />
+                elit. Phasus nec pretim ornare<br />
+                velit non
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 bg-dark p-4">
+          <div class="d-flex align-items-center">
+            <img src="support.png" class="rounded" alt="support" />
+
+            <div class="m-2">
+              <p class="fs-2 text-warning my-2" style="font-weight: bolder">
+                24/7 Support
+              </p>
+
+              <p class="text-warning">
+                Lorem ipsum dolor sit amet<br />
+                elit. Phasus nec pretim ornare<br />
+                velit non
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
