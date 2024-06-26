@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSTASK-1</title>
+    <script>
+      function Reverse() {
+        var x = parseInt(document.getElementById("x").value);
+        var rev = 0;
+        while (x > 0) {
+          rev = rev * 10 + (x % 10);
+          x = parseInt(x / 10);
+        }
+        document.getElementById("result").textContent = rev.toString();
+      }
+    </script>
+    <script src="chrome-extension://agljpjecdbecjanckkbhpifjhemgdnlm/content2.js"></script>
+  </head>
+  <body>
+    <h1>Reversing a Number</h1>
+    Enter Number : <input type="number" id="x" fdprocessedid="bjwaf" /><button
+      onclick="Reverse()"
+      fdprocessedid="o3e5u"
+    >
+      Submit</button
+    ><br /><br />
+    Result : <span id="result"></span>
+  </body>
+</html>
